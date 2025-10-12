@@ -1,5 +1,5 @@
 [build]
-  functions = "netlify/functions/"
+  functions = "IA-01/netlify/functions/"
 
 [[redirects]]
   from = "/*"
