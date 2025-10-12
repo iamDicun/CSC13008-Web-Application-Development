@@ -5,7 +5,7 @@ const app = express();
 
 const router = express.Router();
 router.get('/', (req, res) => {
-  res.send('Hello from Netlify!');
+  res.send('Hello World!!! My name is Bui Duong Duy Cuong - 23127033');
 });
 
 app.use('/.netlify/functions/hello', router);
