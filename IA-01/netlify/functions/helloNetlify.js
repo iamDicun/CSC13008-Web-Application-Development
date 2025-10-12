@@ -8,6 +8,6 @@ router.get('/', (req, res) => {
   res.send('Hello World!!! My name is Bui Duong Duy Cuong - 23127033');
 });
 
-app.use('/.netlify/functions/helloNetlify', router);
+app.use('/', router);
 
 module.exports.handler = serverless(app);
